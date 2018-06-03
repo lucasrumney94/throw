@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ball
+  - Grabbable
+  - Paintable
   layers:
   - Default
   - TransparentFX
