@@ -10,7 +10,7 @@ TBD!
 
 ## Scene 1: Trash
 
-In this scene, you can see how many times you can throw a paper cup into a trashcan.
+In this scene, you can throw a paper cup into a waste bin. 
 
 | Action             | Control      |
 |--------------------|--------------|
@@ -30,7 +30,7 @@ In this scene, you can throw balls of light and turn on/off gravity.
 | Deactivate Gravity | Grip Up      |
 
 ## Scene 3: Paintball
-In this scene, you can paint the furniture by throwing paintballs.
+In this scene, you can paint the environment by throwing paintballs.
 
 | Action             | Control      |
 |--------------------|--------------|
@@ -42,4 +42,4 @@ In this scene, you can paint the furniture by throwing paintballs.
 
 # Contact Me
 
-If you would like to contact me, there are various means available to do so on [my site](lucasrumney94.github.io).
+If you would like to contact me, there are various means available to do so on [my site](http://lucasrumney94.github.io).
