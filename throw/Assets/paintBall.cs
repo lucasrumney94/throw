@@ -20,6 +20,14 @@ public class paintBall : MonoBehaviour {
 		if (other.CompareTag("Paintable"))
 		{
 			other.GetComponent<Renderer>().material.color = myColor;
+
+			//other.GetComponent<Renderer>().material.EnableKeyword("Emmission")
+			
+			other.GetComponent<Renderer>().material.SetColor("_EmissionColor", myColor);
+
+			//DynamicGI.SetEmissive(other.GetComponent<Renderer>(), myColor);
+			
+
 			GetComponent<Rigidbody>().velocity = Vector3.zero;
 			transform.position = Vector3.up;
 		}
