@@ -5,15 +5,18 @@ using UnityEngine;
 public class DetectGoal : MonoBehaviour 
 {
 
+	public GameObject TaskComplete;
+	public GameObject player;
+
 	private void OnTriggerEnter(Collider other)
 	{
 		if (other.CompareTag("Ball"))
 		{
-			Debug.Log("Basket Made!");
-			Vector3 newPosition = 3*Random.insideUnitSphere;
-			newPosition.y = 0.1f;
-			transform.parent.position = newPosition;
-			other.transform.position = Vector3.up;
+			Debug.Log("Goal!");
+			GameObject g = GameObject.Instantiate(TaskComplete, transform.position, Quaternion.identity) as GameObject;
+			Vector3 lookHere = new Vector3(player.transform.position.x, 0.0f, player.transform.position.z);
+			g.transform.LookAt(lookHere);
+			Destroy(other.gameObject);
 		}
 	}
 }
