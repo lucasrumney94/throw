@@ -7,10 +7,13 @@ public class paintBall : MonoBehaviour {
 	private Color myColor;
 	public GameObject paintBowl;
 
+	private AudioSource MyAudioSource;
+
 	// Use this for initialization
 	void Start () 
 	{
 		myColor = gameObject.GetComponent<Renderer>().material.color;
+		MyAudioSource = gameObject.GetComponent<AudioSource>();
 		
 
 	}
@@ -19,7 +22,10 @@ public class paintBall : MonoBehaviour {
 	{
 		if (other.CompareTag("Paintable"))
 		{
+			MyAudioSource.Play();
+
 			other.GetComponent<Renderer>().material.color = myColor;
+
 
 			//other.GetComponent<Renderer>().material.EnableKeyword("Emmission")
 			
@@ -30,6 +36,8 @@ public class paintBall : MonoBehaviour {
 
 			GetComponent<Rigidbody>().velocity = Vector3.zero;
 			transform.position = Vector3.up;
+
+
 		}
 	}
 }

@@ -4,4 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/scene/OfficeThrow.unity
+    guid: 90505790d5478b44e8437c71462e9ee4
+  - enabled: 1
+    path: Assets/scene/LightThrow.unity
+    guid: 2a9389bb5de3e654db6b3e990489ad55
+  - enabled: 1
+    path: Assets/scene/Throwpaint.unity
+    guid: f7906c54ddd8a40408e6477028fb5f0e
+  m_configObjects: {}

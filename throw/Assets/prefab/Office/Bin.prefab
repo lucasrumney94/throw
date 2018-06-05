@@ -55,8 +55,8 @@ GameObject:
   - component: {fileID: 4146336142361030}
   - component: {fileID: 33062570449642358}
   - component: {fileID: 23254945244210060}
-  - component: {fileID: 65625590619901768}
   - component: {fileID: 114060063632516070}
+  - component: {fileID: 136639852143632908}
   m_Layer: 0
   m_Name: Goal (1)
   m_TagString: Untagged
@@ -203,18 +203,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 2915f40e730ab6d4eaee41ec580bab4c, type: 3}
---- !u!65 &65625590619901768
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1927130704318690}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &95534368327597404
 Animator:
   serializedVersion: 3
@@ -247,3 +235,18 @@ MonoBehaviour:
   TaskComplete: {fileID: 1058440271017648, guid: 2a4d9bcc5e019a44a85142d8785981e9,
     type: 2}
   player: {fileID: 0}
+  AgileMasterSprite: {fileID: 1922581725005202, guid: 2562b44308e1d2b4d884a4536e889b2c,
+    type: 2}
+--- !u!136 &136639852143632908
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1927130704318690}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.65
+  m_Height: 7.25
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
