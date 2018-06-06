@@ -1,16 +1,17 @@
 # throw
 
-A few VR scenes that involve throwing various objects. Currently In Development!
+A few VR scenes that involve throwing various objects.
+Read more about it on Medium!
 
 # Installation
 
-TBD!
+Go to my itch page, download, extract, and run the throw executable.
 
 # Instructions
 
 ## Scene 1: Trash
 
-In this scene, you can throw a paper cup into a waste bin. 
+In this scene, you can throw a paper cup into a waste bin.
 
 | Action             | Control      |
 |--------------------|--------------|
