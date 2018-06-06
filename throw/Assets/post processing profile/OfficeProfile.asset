@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a3bdb2cd68f901469e7cc149151eb49, type: 3}
-  m_Name: PaintBallProfile
+  m_Name: OfficeProfile
   m_EditorClassIdentifier: 
   debugViews:
     m_Enabled: 1
@@ -112,7 +112,7 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       tonemapping:
-        tonemapper: 1
+        tonemapper: 2
         neutralBlackIn: 0.02
         neutralWhiteIn: 10
         neutralBlackOut: 0
@@ -121,26 +121,26 @@ MonoBehaviour:
         neutralWhiteClip: 10
       basic:
         postExposure: 0
-        temperature: 9.7
+        temperature: -4.4
         tint: 0
         hueShift: 0
-        saturation: 1
-        contrast: 1
+        saturation: 0.75
+        contrast: 1.25
       channelMixer:
         red: {x: 1, y: 0, z: 0}
-        green: {x: 0, y: 1, z: 0}
-        blue: {x: 0, y: 0, z: 1}
+        green: {x: 0, y: 1.05, z: 0}
+        blue: {x: 0, y: 0, z: 1.05}
         currentEditingChannel: 2
       colorWheels:
         mode: 1
         log:
-          slope: {r: 1, g: 1, b: 1, a: -0.095693775}
-          power: {r: 1, g: 1, b: 1, a: -0.13397129}
-          offset: {r: 1, g: 1, b: 1, a: -0.057416264}
+          slope: {r: 1, g: 1, b: 1, a: 0}
+          power: {r: 1, g: 1, b: 1, a: 0}
+          offset: {r: 1, g: 1, b: 1, a: 0}
         linear:
-          lift: {r: 1, g: 1, b: 1, a: 0}
-          gamma: {r: 1, g: 1, b: 1, a: 0}
-          gain: {r: 1, g: 1, b: 1, a: 0}
+          lift: {r: 0, g: 0, b: 0, a: 0}
+          gamma: {r: 0, g: 0, b: 0, a: 0}
+          gain: {r: 0, g: 0, b: 0, a: 0}
       curves:
         master:
           curve:

@@ -29,8 +29,15 @@ public class OnBounce : MonoBehaviour {
 	{
 		if (!GetComponent<Rigidbody>().useGravity)
 		{
+			//if (!myAudioSource.isPlaying)
+			//{
 			myAudioSource.clip = dingClips[Random.Range(0, dingClips.Count)];
-        	myAudioSource.Play();
+			myAudioSource.Play();
+			//}
+			//else
+			//{
+			//	myOtherAudioSource = gameObject.AddComponent<AudioSource>();
+			//}
 			//myLight.range *= lightRangeMultiplier;
 			//StartCoroutine(dimLight());
 		}

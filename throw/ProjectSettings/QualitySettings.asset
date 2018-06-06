@@ -33,7 +33,8 @@ QualitySettings:
     asyncUploadTimeSlice: 2
     asyncUploadBufferSize: 4
     resolutionScalingFixedDPIFactor: 1
-    excludedTargetPlatforms: []
+    excludedTargetPlatforms:
+    - Standalone
   - serializedVersion: 2
     name: Fast
     pixelLightCount: 0
@@ -61,7 +62,8 @@ QualitySettings:
     asyncUploadTimeSlice: 2
     asyncUploadBufferSize: 4
     resolutionScalingFixedDPIFactor: 1
-    excludedTargetPlatforms: []
+    excludedTargetPlatforms:
+    - Standalone
   - serializedVersion: 2
     name: Simple
     pixelLightCount: 1
@@ -89,7 +91,8 @@ QualitySettings:
     asyncUploadTimeSlice: 2
     asyncUploadBufferSize: 4
     resolutionScalingFixedDPIFactor: 1
-    excludedTargetPlatforms: []
+    excludedTargetPlatforms:
+    - Standalone
   - serializedVersion: 2
     name: Good
     pixelLightCount: 2
@@ -148,7 +151,7 @@ QualitySettings:
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Fantastic
-    pixelLightCount: 10
+    pixelLightCount: 12
     shadows: 2
     shadowResolution: 2
     shadowProjection: 0
@@ -177,7 +180,7 @@ QualitySettings:
   m_PerPlatformDefaultQuality:
     Android: 0
     BlackBerry: 0
-    Standalone: 0
+    Standalone: 5
     WP8: 0
     Web: 0
     WebGL: 0
