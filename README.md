@@ -1,11 +1,14 @@
 # throw
 
 A few VR scenes that involve throwing various objects.
-Read more about it on Medium!
+
+Read more about it on [Medium!](https://medium.com/@lucasrumney94/throw-a-virtual-reality-verb-aa3972cc8121)
 
 # Installation
+For Vive on Windows:
 
-Go to my itch page, download, extract, and run the throw executable.
+Go to my [itch page](https://jet-drift.itch.io/throw), download, extract, and run the throw executable.
+
 
 # Instructions
 
@@ -37,8 +40,6 @@ In this scene, you can paint the environment by throwing paintballs.
 |--------------------|--------------|
 | Grab               | Trigger Down |
 | Release            | Trigger Up   |
-
-
 
 
 # Contact Me
